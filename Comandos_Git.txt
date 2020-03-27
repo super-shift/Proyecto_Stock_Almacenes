@@ -7,4 +7,40 @@ Aqui van los principales comandos para el programa de manejo de versiones Git:
 
 ** No estoy seguro si para hacer cambios se debe ingresar con un usuario determinado
 
--
+- Luego se puede clonar el repositorio para poder modificarlo con:
+>> git clone https://github.com/super-shift/Proyecto_Stock_Almacenes.git
+
+- Luego, entrando a la carpeta con:
+>> cd Proyecto_Stock_Almacenes
+
+- Podemos iniciar modificaciones en el repositorio
+>> git init
+
+- Para probar, haz un cambio cualquiera, en el txt por ejemplo, y luego:
+>> git status
+
+- Con status se pueden ver todos los archivos que han sido modificados desde que 
+activo init. Pero solo es una vision del estado de las modificaciones. Para guardar
+los cambios se deben agregar los cambios a un posible commite (cuando se crea un estado de modificacion).
+>> git add .
+
+- Luego, para que los cambios agregados creen una verdadera cambio en el repositorio,
+se debe hacer un commit.
+>> git commit -m "Nombre descriptivo del cambio que hemos realizado"
+
+- Para agregar los cambios a la rama principal:(terreno desconocido)
+>> git push origin master
+
+** Con esto deberiamos poder experimentar un poco **
+
+links: 
+- https://codingpotions.com/git-comandos-basicos-avanzados
+- https://www.hostinger.es/tutoriales/comandos-de-git
+
+
+
+
+
+
+
+
