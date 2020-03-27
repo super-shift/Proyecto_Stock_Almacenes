@@ -1,0 +1,3 @@
+Aqui van los principales comandos para el programa de manejo de versiones Git:
+
+- 
