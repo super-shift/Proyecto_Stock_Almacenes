@@ -1,3 +1,10 @@
 Aqui van los principales comandos para el programa de manejo de versiones Git:
 
-- 
+- Primero Se debe identificar el usuario que estará haciendo cambios (creo):
+
+>> git config --global user.name "Tu nombre aquí"
+>> git config --global user.email ejemplo@example.com 
+
+** No estoy seguro si para hacer cambios se debe ingresar con un usuario determinado
+
+-
