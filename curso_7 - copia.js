@@ -9,6 +9,7 @@ prompt("Por favor indique la cantidad de articulos 1 que desea:")
 prompt("Por favor indique la cantidad de articulos 2 que desea:")
 prompt("Por favor indique la cantidad de articulos 3 que desea:")
 prompt("Por favor indique la cantidad de articulos 4 que desea:")
+prompt("Por favor indique la cantidad de articulos 5 que desea:")
 
 alert("Su pedido sera confirmado por telefono, gracias por confiar en nosotr@s :)")
 
