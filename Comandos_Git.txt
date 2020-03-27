@@ -36,7 +36,7 @@ se debe hacer un commit.
 links: 
 - https://codingpotions.com/git-comandos-basicos-avanzados
 - https://www.hostinger.es/tutoriales/comandos-de-git
-
+- https://www.git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Acerca-del-Control-de-Versiones << (no leído)
 
 
 
