@@ -14,7 +14,7 @@ var frase_5 += ((valor_5).toString() + " monedas");
 ////
 
 // poner precios 
-Producto_1.innerHTML += ((valor_1).toString() + " monedas");
+Producto_1.innerHTML += valor_1 + " monedas";
 Producto_2.innerHTML += ((valor_2).toString() + " moneda");
 Producto_3.innerHTML += ((valor_3).toString() + " monedas");
 Producto_4.innerHTML += ((valor_4).toString() + " monedas");

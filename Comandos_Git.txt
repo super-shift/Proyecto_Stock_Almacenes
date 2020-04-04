@@ -39,6 +39,12 @@ links:
 - https://www.git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Acerca-del-Control-de-Versiones << (no leído)
 
 
+Para traer archivos
+git init
+
+git pull
+
+
 
 
 
