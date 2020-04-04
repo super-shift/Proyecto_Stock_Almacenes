@@ -1,15 +1,18 @@
 // program data:
-var number = Math.floor(Math.random() * 100);
-var guess;
-var limit = 5;
-var won =  false;
-var guesses = [];
+// Math.random() * 100 >> numero entre 1 y 100
+// Math.floor() >> cajon inferior
+
+
+// peticion de nombre
+var userName = prompt("Como te llamas?");
 
 // Primera alerta de bienvenido
-alert("Bienvenid@ al almacen virtual,\nPor favor haga click en aceptar para poder continuar")
+alert("Bienvenid@ " + userName + " al almacen virtual,\nPor favor haga click en aceptar para poder continuar");
 
 // Primera alerta de bienvenido
-alert("Para el continuo mejoramiento de su experiencia,\nsus datos podrian ser guardados")
+alert("Para el continuo mejoramiento de su experiencia,\nsus datos podrian ser guardados");
+
+Titulo.innerHTML += "Hola " + userName + ", abajo se encuentran los precios para cada producto";
 
 
 
