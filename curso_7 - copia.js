@@ -1,25 +1,3 @@
-// definir las variables de precios de articulos
-//var valor_1 = 2;
-//var valor_2 = 1;
-//var valor_3 = 3;
-//var valor_4 = 5;
-//var valor_5 = 7;
-
-//// por completar
-//var frase_1 = (valor_1).toString() + " monedas"
-//var frase_2 += ((valor_2).toString() + " moneda");
-//var frase_3 += ((valor_3).toString() + " monedas");
-//var frase_4 += ((valor_4).toString() + " monedas");
-//var frase_5 += ((valor_5).toString() + " monedas");
-////
-
-// poner precios 
-//Producto_1.innerHTML += ((valor_1).toString() + " monedas");
-//Producto_2.innerHTML += ((valor_2).toString() + " moneda");
-//Producto_3.innerHTML += ((valor_3).toString() + " monedas");
-//Producto_4.innerHTML += ((valor_4).toString() + " monedas");
-//Producto_5.innerHTML += ((valor_5).toString() + " monedas");
-
 // program data:
 var monedas_variables = Math.floor(Math.random() * 100);
 var monedas_fijas = 50
@@ -39,6 +17,8 @@ var articulo_3 = 0;
 var articulo_4 = 0;
 var articulo_5 = 0;
 
+var vuelto_num = 0;
+
 while(pedido_invalido){
 	articulo_1 = parseInt(window.prompt("Por favor indique la cantidad de articulos 1 que desea:"));
 	articulo_2 = parseInt(window.prompt(`Por favor indique la cantidad de articulos 2 que desea: Te quedan ${monedas_totales - (articulo_1 * valor_1)} monedas`));
@@ -48,7 +28,7 @@ while(pedido_invalido){
 	total = articulo_1*valor_1 + articulo_2*valor_2 + articulo_3*valor_3 +articulo_4*valor_4 + articulo_5*valor_5; 
 	if(total <= monedas_totales){
 		pedido_invalido = false;
-		alert("Tu vuelto es: " + (monedas_totales - total).toString() + " monedas")
+		vuelto_num = monedas_totales - total; 
 	}
 	else{
 		alert("No te alcanzan las monedas, intenta de nuevo");
@@ -58,6 +38,10 @@ while(pedido_invalido){
 
 
 alert("Su pedido sera confirmado por telefono, gracias por confiar en nosotr@s :)")
+
+
+vuelto.innerHTML += "Tu vuelto es: " + (vuelto_num).toString() + " monedas";
+
 
 // game control loop - iterates for each try
 // for (var i = 0; i < limit; i++){
